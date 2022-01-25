@@ -88,7 +88,7 @@ class MoldeTorta:
     
 
 ### Creamos nuestro objeto o instancia de clase
- - torta = MoldeTorta("Vainilla", "Blanca", 4, 5)
+    - torta = MoldeTorta("Vainilla", "Blanca", 4, 5)
 
 ### Invocamos los métodos de la clase
 ```
