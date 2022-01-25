@@ -1,4 +1,4 @@
-## Resumen de lo visto en funciones
+#### Resumen de lo visto en funciones
 
 A medida que los programas se vuelven más largos y complejos, necesitamos organizarlos adecuadamente.
 
@@ -27,8 +27,10 @@ Por ello, cuando hablamos de una función, estamos hablando de una secuencia de 
 
 Podemos crear una funcion con paso de argumentos opcionales, quiere decir que le definimos un valor por defecto al momento de crear el argumento
 
+```
 def argumentos_opcionales(nombre, edad, segundo_nombre=None, area_trabajo=None):
     pass
+```
 
 **Los argumentos opcionales siempre los dejamos para despues de aquellos que no serán tratados como opcionales**
 
@@ -37,7 +39,7 @@ Por ello tenemos que tener mucho cuidado cuando pasamos datos que son mutables p
 
 
 ## Paso de argumentos indeterminados
-####*args, **kwargs 
+#### *args, **kwargs 
 
 Está es una técnica de la que podemos dar uso para pasar una cantidad de argumentos indeterminados (tendrémos que administrarlas bien dentro de nuestra función).
 
@@ -68,7 +70,7 @@ Podemos pasarte tanto un diccionario de datos como argumento (**diccionario) ó,
         lista_de_datos_de_personas.append(kwargs)
 
     guardar_datos_personas(**datos) # pasamos nuestro diccionario de datos
-    datos = guardar_datos_personas(nombre="Gilgamesh", apellido="de Uruk", identificacion=None) # pasamos los datos como argumentos de clave=valor
+    datos = guardar_datos_personas(nombre="Gilgamesh", apellido="de Uruk", identificacion=None) # pasamos los datos como argumentos de clave=valor  
 
     print(lista_de_datos_de_personas)
 

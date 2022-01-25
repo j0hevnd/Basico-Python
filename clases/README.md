@@ -1,4 +1,4 @@
-## CLASES EN PYTHON
+#### CLASES EN PYTHON
 
 Hablar de un resumen de clases en Python, es pasar varias cosas por ensima.
 
@@ -15,13 +15,13 @@ Es como si nuestras variables fueran objetos de estas clases, así es que pueden
 
 #### ¿Como estan estructuradas las clases?
 
-    - <<class>> es la palabra reservada para crear clases
-    - el nombre de nuestra clase inicia con mayúscula, cuando es compuesta la siguiente tambien lleva mayúscula y no la separamos con guión bajo.
-    - Las clases pueden 'tener atributos de clase' y 'metodos de clase que son los que se crean a un solo nivel de identación, y pueden tener variables de la instancia que son las que se crean al momento de crear un objeto de la clase o instancia (variable_instancia = Clase()), y estás estan definidas dentro de un método especial de la clase llamado __init__()
+*   <<\class>> es la palabra reservada para crear clases
+*   el nombre de nuestra clase inicia con mayúscula, cuando es compuesta la siguiente tambien lleva mayúscula y no la separamos con guión bajo.
+*   Las clases pueden 'tener atributos de clase' y 'metodos de clase que son los que se crean a un solo nivel de identación, y pueden tener variables de la instancia que son las que se crean al momento de crear un objeto de la clase o instancia (variable_instancia = Clase()), y estás estan definidas dentro de un método especial de la clase llamado __init__()
 
     - __init__() es el método que usamos para inicializar los atributos que son de la instancia.
 
-Algo que necesitan nuestros métodos de clase (funciones) es el parámetro <<self>>, este ayuda a nuestras instancias a acceder a los métodos y atributos de la clase, por ello debemos pasar este atributo a nuestros métodos de clase (este se puede llamar como queramos, pero por convención se le llama self).
+Algo que necesitan nuestros métodos de clase (funciones) es el parámetro <<\self>>, este ayuda a nuestras instancias a acceder a los métodos y atributos de la clase, por ello debemos pasar este atributo a nuestros métodos de clase (este se puede llamar como queramos, pero por convención se le llama self).
 
 Tambien podemos tener método y atributos 'privados' y 'protegidos' nos damos cuenta por ello gracias a los guiones bajos al inicio de la variable
 
@@ -87,13 +87,15 @@ class MoldeTorta:
         print("Torta cocinada: ", self.get_torta_cocinada())
     
 
-# Creamos nuestro objeto o instancia de clase
-torta = MoldeTorta("Vainilla", "Blanca", 4, 5)
+## Creamos nuestro objeto o instancia de clase
+ - torta = MoldeTorta("Vainilla", "Blanca", 4, 5)
 
-# invocamos los métodos de la clase
+## Invocamos los métodos de la clase
+```
 torta.cocinar_a(180)
 torta.concinar_torta()
 torta.concinar_torta()
 torta.concinar_torta()
 torta.concinar_torta()
 torta.concinar_torta()
+```
