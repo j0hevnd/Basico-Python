@@ -1,4 +1,4 @@
-#### Herencia
+# Herencia
 
 A veces tendremos clases que se relacionarán mucho, nos daremos cuenta que tiene varios atributos y métodos en común. Cuando algo como esto nos pasa, entonces podemos definir una clase que sea más generica y en esta clase agregamos estos métodos y atributos que comparten otras clases. Generalmente cuando esto pasa es porque las clases tienen algún tipo de relación, por ello la clase que tienen los métodos y atributos generales le llamamos clase Padre, y a las que heredan de esta clase les llamamos clases Hijas.
 

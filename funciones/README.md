@@ -1,4 +1,4 @@
-#### Resumen de lo visto en funciones
+# Resumen de lo visto en funciones
 
 A medida que los programas se vuelven más largos y complejos, necesitamos organizarlos adecuadamente.
 
@@ -7,7 +7,7 @@ Las funciones son muy útiles para agrupar código relevante, o código que cump
 Por ello, cuando hablamos de una función, estamos hablando de una secuencia de comandos encapsulados que podemos usar donde queramos.
 
 
-#### Crear de una función
+### Crear de una función
 
     - def <nombreFuncion>(): si los necesitamos, pasar argumentos (argumento_1, argumento_2, ...)
 
@@ -38,7 +38,7 @@ def argumentos_opcionales(nombre, edad, segundo_nombre=None, area_trabajo=None):
 Por ello tenemos que tener mucho cuidado cuando pasamos datos que son mutables podríamos estar sobreescribiendo una variable de fuera de la función y resulta que ello no era lo que buscabamos hacer.
 
 
-## Paso de argumentos indeterminados
+### Paso de argumentos indeterminados
 #### *args, **kwargs 
 
 Está es una técnica de la que podemos dar uso para pasar una cantidad de argumentos indeterminados (tendrémos que administrarlas bien dentro de nuestra función).

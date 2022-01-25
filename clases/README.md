@@ -1,4 +1,4 @@
-## CLASES EN PYTHON
+# CLASES EN PYTHON
 
 Hablar de un resumen de clases en Python, es pasar varias cosas por ensima.
 
@@ -87,7 +87,7 @@ class MoldeTorta:
         print("Torta cocinada: ", self.get_torta_cocinada())
     
 
-# Creamos nuestro objeto o instancia de clase
+### Creamos nuestro objeto o instancia de clase
  - torta = MoldeTorta("Vainilla", "Blanca", 4, 5)
 
 ### Invocamos los métodos de la clase
